@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="contenedor contenedor-calculadora">
+            <form name="calculator">
+            
+                <input type="text" id="texto" />
+                <br>
+                
+                <input type="button" value=" 1 " onclick="calculator.texto.value += '1'" />
+                <input type="button" value=" 2 " onclick="calculator.texto.value += '2'" />
+                <input type="button" value=" 3 " onclick="calculator.texto.value += '3'" />
+                <input type="button" value=" + " onclick="calculator.texto.value += '+'" />
+                <br/>
+                
+                <input type="button" value=" 4 " onclick="calculator.texto.value += '4'" />
+                <input type="button" value=" 5 " onclick="calculator.texto.value += '5'" />
+                <input type="button" value=" 6 " onclick="calculator.texto.value += '6'" />
+                <input type="button" value=" - " onclick="calculator.texto.value += '-'" />
+                </br>
+              
+                <input type="button" value=" 7 " onclick="calculator.texto.value += '7'" />
+                <input type="button" value=" 8 " onclick="calculator.texto.value += '8'" />
+                <input type="button" value=" 9 " onclick="calculator.texto.value += '9'" />
+                <input type="button" value=" x " onclick="calculator.texto.value += '*'" />
+                </br>
+            
+                <input type="button" value=" c " onclick="calculator.texto.value = ''" />
+                <input type="button" value=" 0 " onclick="calculator.texto.value += '0'" />
+                <input type="button" id="result" value=" = "/>
+                <input type="button" value=" / " onclick="calculator.texto.value += '/'" />
+                </br>
+      
+        
+              </form>
+        </div>
+    </div>
+
+    <script src="javaScript.js"></script>
+</body>
+</html>
