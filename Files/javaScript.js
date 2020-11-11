@@ -5,9 +5,8 @@ var valor;
 
 resultado.addEventListener('click', function(){
     
-    valor = eval(texto.value);
-    console.log(valor)
-
+    valor = eval(texto.value)
+    
     if(!isFinite(valor)) {
         valor = '';
         alert('Error en la operación: El resultado no puede ser infinito o NaN.');
